@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">10.1B Homework</string>
+    <string name="enter_text_to_be_saved">Enter text to be saved</string>
+    <string name="room_text">Room Database: large amounts of data can be stored in SQLite database. These values persist even if the app is closed and reopened.</string>
+    <string name="save_all">Save All</string>
+    <string name="savedInstanceStateText">Saved Instance State: data is lost when app is closed and reopened.</string>
+    <string name="shared_pref_text">Shared Preferences: Small amounts of values can be stored as key value pairs. They persist even if the app is closed and reopened.</string>
+    <string name="storage_types">Storage Types</string>
+    <string name="text_saved">Text Saved:</string>
+    <style name="Theme.Latihan101B_Homework" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.Latihan101B_Homework.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Latihan101B_Homework.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Latihan101B_Homework.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

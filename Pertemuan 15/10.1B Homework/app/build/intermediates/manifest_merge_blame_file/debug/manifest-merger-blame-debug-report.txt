@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.ac.e020320033.homework_101b"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\adzri\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Latihan101B_Homework" >
+22-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:13:9-58
+23        <activity
+23-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:15:9-28:20
+24            android:name="id.ac.e020320033.homework_101b.MainActivity"
+24-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:16:13-71
+25            android:exported="true"
+25-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:17:13-36
+26            android:theme="@style/Theme.Latihan101B_Homework" >
+26-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:18:13-62
+27            <intent-filter>
+27-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:20:17-69
+28-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32
+33            <meta-data
+33-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:25:13-27:36
+34                android:name="android.app.lib_name"
+34-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:26:17-52
+35                android:value="" />
+35-->D:\File Kuliah\Semester 5\1. Pemrograman Berbasis Objek (Java)\Project Android Studio\Pertemuan 15\10.1B Homework\app\src\main\AndroidManifest.xml:27:17-33
+36        </activity>
+37
+38        <service
+38-->[androidx.room:room-runtime:2.4.3] C:\Users\adzri\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.4.3] C:\Users\adzri\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.4.3] C:\Users\adzri\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.4.3] C:\Users\adzri\.gradle\caches\transforms-3\4c4bbe8def8631c1151c061ee75b6868\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+45            android:authorities="id.ac.e020320033.homework_101b.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adzri\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adzri\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adzri\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\adzri\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>
